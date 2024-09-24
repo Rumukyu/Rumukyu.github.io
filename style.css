@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+#game-container {
+    position: relative;
+}
+
+#gameCanvas {
+    border: 1px solid white;
+}
+
+#hp-bar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#dialogBox {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 600px;
+}
